@@ -12,8 +12,7 @@ programa
 			excedente.
 		 */
 
-		 //variável //  10 reais por hora  // exceder 50 calcule o excesso de pagamento
-			// exedente vale 20
+
 		 inteiro C //CódigoDoTrabalhador
 		 real N /*NúmeroDeHoras*/, E/*PagamentoExcedido*/, horaExcedente, salario, salarioTotal
 		 
@@ -42,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 534; 
+ * @POSICAO-CURSOR = 505; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Matematica --> math
 	funcao inicio()
 	{
 		/*
@@ -13,11 +13,11 @@ programa
 		 */
 
 		 //variáveis
-		 real salario, totalSalario, mediaSalario, maiorSalario, percentSalario
-		 real filhos, totalFilhos, mediaFilhos
+		 real salario, totalSalario, mediaSalario, maiorSalario, percentSalario //variáveis salário
+		 real filhos, totalFilhos, mediaFilhos //variáveis filho
 		 inteiro contadoraHab, contadoraAte100
 
-		 const real QTD=20.0
+		 const real QTD=3
 		 
 		 //contadoras
 		 contadoraHab = 1
@@ -47,7 +47,7 @@ programa
 			 totalSalario += salario
 			 totalFilhos += filhos
 			 
-			 //pega o maior salário
+			 //identifica o maior salário
 			 se(salario > maiorSalario){
 			 	maiorSalario = salario
 			 }
@@ -64,11 +64,11 @@ programa
 		 mediaFilhos = (totalFilhos / QTD) // média de filhos
 
 		 limpa()
-		 escreva("Essa população tem o salário médio de: R$"+mediaSalario+"\n")
-		 escreva("Essa população tem em média: "+mediaFilhos+" filho(s)\n")
+		 escreva("Essa população tem o salário médio de: R$"+math.arredondar(mediaSalario, 2)+"\n")
+		 escreva("Essa população tem em média: "+math.arredondar(mediaFilhos, 2)+" filho(s)\n")
 		 escreva(" \n")
 		 escreva("Quem tem o maior salário, recebe R$"+maiorSalario+"\n")
-		 escreva("O percentual de pessoas que recebem até R$100 é de "+percentSalario+"% \n")
+		 escreva("O percentual de pessoas que recebem até R$100 é de "+math.arredondar(percentSalario, 2)+"% \n")
 
 	}
 }
@@ -77,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1240; 
+ * @POSICAO-CURSOR = 2014; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

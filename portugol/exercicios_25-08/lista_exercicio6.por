@@ -12,18 +12,22 @@ programa
 		//variáveis
 		inteiro numero, contadora, resultado
 
-		contadora = 0
+		contadora = 1
 		resultado = 0
 		//entrada - processamento
 		escreva("Digite um número: ")
 		leia(numero)
 		
 		faca{
-			contadora ++
+			escreva(contadora)
+			se(contadora < 7){
+				escreva("+")
+			}
 			resultado = resultado + contadora
+			contadora ++
 		}
-		enquanto(contadora < numero) 
-		escreva(resultado)
+		enquanto(contadora <= numero) 
+		escreva(" = "+resultado)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -31,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 403; 
+ * @POSICAO-CURSOR = 572; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

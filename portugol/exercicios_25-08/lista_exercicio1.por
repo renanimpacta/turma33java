@@ -47,7 +47,7 @@ programa
 			 totalSalario += salario
 			 totalFilhos += filhos
 			 
-			 //maior salário - INVERSÃO
+			 //pega o maior salário
 			 se(salario > maiorSalario){
 			 	maiorSalario = salario
 			 }
@@ -77,7 +77,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 717; 
+ * @POSICAO-CURSOR = 1240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

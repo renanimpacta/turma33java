@@ -12,7 +12,7 @@ programa
 		//variáveis
 		inteiro numero, contadora, resultado
 
-		contadora = 1
+		contadora = 1 //Contadora
 		resultado = 0
 		//entrada - processamento
 		escreva("Digite um número: ")
@@ -20,7 +20,7 @@ programa
 		
 		faca{
 			escreva(contadora)
-			se(contadora < 7){
+			se(contadora < numero){
 				escreva("+")
 			}
 			resultado = resultado + contadora
@@ -35,9 +35,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 572; 
+ * @POSICAO-CURSOR = 481; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {numero, 13, 10, 6}-{contadora, 13, 18, 9}-{resultado, 13, 29, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica --> math
+	inclua biblioteca Matematica --> math
 	funcao inicio()
 	{
 		/*
@@ -63,6 +63,7 @@ programa
 		 mediaSalario = (totalSalario / QTD) // média de salário
 		 mediaFilhos = (totalFilhos / QTD) // média de filhos
 
+		 //saída
 		 limpa()
 		 escreva("Essa população tem o salário médio de: R$"+math.arredondar(mediaSalario, 2)+"\n")
 		 escreva("Essa população tem em média: "+math.arredondar(mediaFilhos, 2)+" filho(s)\n")
@@ -77,7 +78,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2014; 
+ * @POSICAO-CURSOR = 842; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

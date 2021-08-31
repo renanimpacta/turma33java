@@ -1,4 +1,6 @@
 package lista1;
+
+
 import java.util.Scanner;
 
 public class Lista1Tarefa1 {

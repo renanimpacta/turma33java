@@ -29,7 +29,7 @@ programa
 		 
 		 //processamento
 		 x = ((c*ee) - (b*f)) / ((a*ee) - (b*d))
-		 y = ((a*f) - (c*d) / (a*ee) - (b*d))
+		 y = ((a*f) - (c*d)) / ((a*ee) - (b*d))
 
 		 c = ((a*x) + (b*y))
 		 f = ((d*x) + (ee*y))
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 572; 
+ * @POSICAO-CURSOR = 458; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util
+
 	funcao inicio()
 	{
 		/*
@@ -13,7 +13,8 @@ programa
 		//variaveis
 		inteiro lancamentos[10]
 		inteiro x
-		inteiro totalSoma = 0, mediaLancamentos = 0, maiorNum = 0, vezesMaiorNum = 0
+		inteiro maiorNum = 0, vezesMaiorNum = 0
+		real totalSoma = 0.0, mediaLancamentos = 0.0
 		
 		//entrada e processamento
 		para(x = 0; x<=9; x++){
@@ -50,9 +51,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 547; 
+ * @POSICAO-CURSOR = 11; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {lancamentos, 14, 10, 11};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

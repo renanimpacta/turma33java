@@ -12,6 +12,6 @@ public class ExemploRandom {
 		int numero;
 		
 		//versão classe random
-		numero =
+		//numero =
 	}
 }
